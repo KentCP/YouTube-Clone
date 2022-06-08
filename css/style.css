@@ -336,7 +336,7 @@ h3 {
   }
 
   .topbar {
-    padding: .6rem;
+    padding: 2rem;
     margin: 0;
 
   }
@@ -381,8 +381,31 @@ h3 {
   .main-content {
     margin-left: 0;
     padding-right: 1rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
+
+  .menu,
+  .voice-search,
+  .notifications,
+  .upload,
+  .youtube-apps {
+    display: none;
+  }
+
+  .youtube-logo {
+    position: absolute;
+    left: 1rem;
+  }
+
+  .user-profile {
+    position: absolute;
+    right: 1rem;
+  } 
+
+  .search-btn {
+    position: absolute;
+    right: 3rem;
+  } 
 
 }
 
