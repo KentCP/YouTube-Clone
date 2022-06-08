@@ -19,66 +19,725 @@
     <header>
       <nav class="topbar flex">
         <div class="left flex">
-          <div class="hamburger-menu">
+          <div class="icon menu">
             <a href="#"
               ><img
                 src="./Images/Icons/hamburger-menu.svg"
+                class="filter-white"
                 alt="hamburger-menu"
             /></a>
+            <p class="tooltip">Menu</p>
+            
           </div>
-          <div class="youtube-logo">
+          <div class="icon youtube-logo">
             <a href="http://www.youtube.com" target="_blank"
-              ><img src="./Images/Icons/youtube-logo.svg" alt="youtube-logo"
+              ><img
+                src="./Images/Icons/youtube-logo.svg"
+                class="filter-white"
+                alt="youtube-logo"
             /></a>
+            <p class="tooltip">YouTube</p>
           </div>
         </div>
 
         <div class="middle flex">
-          <div class="search-area">
-            <input type="text" class="search-input" name="search" id="search" placeholder="Search" />
-          </div>
-          <div class="search-btn">
-            <a href="#"><img src="./Images/Icons/search.svg" alt="search" /></a>
+          <input
+            type="text"
+            class="search-input"
+            name="search"
+            id="search"
+            placeholder="Search"
+          />
+          <div class="icon search-btn">
+            <a href="#"
+              ><img
+                src="./Images/Icons/search.svg"
+                class="filter-white"
+                alt="search"
+            /></a>
+            <p class="tooltip">Search</p>
           </div>
 
-          <div class="voice-search">
+          <div class="icon voice-search">
             <a href="#"
               ><img
                 src="./Images/Icons/voice-search-icon.svg"
+                class="filter-white"
                 alt="voice-search-icon"
             /></a>
+            <p class="tooltip">Search with voice</p>
           </div>
         </div>
 
         <div class="right flex">
-          <div class="upload">
-            <a href="#"><img src="./Images/Icons/upload.svg" alt="upload" /></a>
-          </div>
-          <div class="youtube-apps">
+          <div class="icon upload">
             <a href="#"
-              ><img src="./Images/Icons/youtube-apps.svg" alt="youtube-apps"
+              ><img
+                src="./Images/Icons/upload.svg"
+                class="filter-white"
+                alt="upload"
             /></a>
+            <p class="tooltip">Upload</p>
           </div>
-          <div class="notifications">
+          <div class="icon youtube-apps">
             <a href="#"
-              ><img src="./Images/Icons/notifications.svg" alt="notifications"
+              ><img
+                src="./Images/Icons/youtube-apps.svg"
+                class="filter-white"
+                alt="youtube-apps"
             /></a>
+            <p class="tooltip">Youtube Apps</p>
+          </div>
+          <div class="icon notifications">
+            <a href="#"
+              ><img
+                src="./Images/Icons/notifications.svg"
+                class="filter-white"
+                alt="notifications"
+            /></a>
+            <div class="notification-counter">
+              <h3>9+</h3>
+            </div>
+            <p class="tooltip">Notifications</p>
           </div>
 
-<div class="user-profile">
-  <a href="#"><img src="./Images/Profile-pictures/mp-profile.jpg" alt=""></a>
-</div>
+          <div class="icon user-profile">
+            <a href="#"
+              ><img
+                src="./Images/Profile-pictures/mp-profile.jpg"
+                class="filter-white"
+                alt=""
+            /></a>
+            <p class="tooltip">User profile</p>
+          </div>
         </div>
       </nav>
     </header>
 
     <!---------------SATRT SIDEBAR / MENU----------------->
-    <aside>
-      <nav class="sidebar"></nav>
+    <aside class="sidebar flex">
+      <nav>
+        <div class="side-menu-link flex">
+          <a href="index.html"
+            ><img src="./Images/Icons/home.svg" class="filter-white" alt="home"
+          /></a>
+
+          <div>
+            <h3>Home</h3>
+          </div>
+        </div>
+
+        <div class="side-menu-link flex">
+          <a href="#"
+            ><img
+              src="./Images/Icons/explore.svg"
+              class="filter-white"
+              alt="explore"
+          /></a>
+
+          <div>
+            <h3>Explore</h3>
+          </div>
+        </div>
+
+        <div class="side-menu-link flex">
+          <a href="#"
+            ><img
+              src="./Images/Icons/subscriptions.svg"
+              class="filter-white"
+              alt="subscriptions"
+          /></a>
+          <div>
+            <h3>Subscriptions</h3>
+          </div>
+        </div>
+
+        <div class="side-menu-link flex">
+          <a href="#"
+            ><img
+              src="./Images/Icons/originals.svg"
+              class="filter-white"
+              alt="originals"
+          /></a>
+          <div>
+            <h3>Originals</h3>
+          </div>
+        </div>
+
+        <div class="side-menu-link flex">
+          <a href="#"
+            ><img
+              src="./Images/Icons/youtube-music.svg"
+              class="filter-white"
+              alt="youtube-music"
+          /></a>
+          <div>
+            <h3>YouTube Music</h3>
+          </div>
+        </div>
+
+        <div class="side-menu-link flex">
+          <a href="#"
+            ><img
+              src="./Images/Icons/library.svg"
+              class="filter-white"
+              alt="library"
+          /></a>
+          <div>
+            <h3>Library</h3>
+          </div>
+        </div>
+      </nav>
     </aside>
 
     <!-- ------- MAIN CONTENT SECTION------- -->
-    <main>
+    <main class="main-content grid">
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-1.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>8:33</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-1.jpg"
+                  alt="profile-1"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  Zero to Full-Time Programmer in 5 steps
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  Kenny Gunderman
+                  <span><i class="fa fa-check-circle fa-1x"></i></span></p
+              ></a>
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">1M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img
+                src="./Images/Thumbnails/thumbnail-2.webp"
+                alt="thumbnail-1"
+            /></a>
+            <div class="video-duration">
+              <h3>25:18</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-2.jpg"
+                  alt="profile-2"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  I created malware with Python (its Scrary easy!!)
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  NetworkChuck
+                  <span><i class="fa fa-check-circle fa-1x"></i></span></p
+              ></a>
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">418K views &#183; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-3.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>25:18</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-3.jpg"
+                  alt="profile-3"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  My Computer Science Degree in 8 Minutes
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  jedcal
+                  <span><i class="fa fa-check-circle fa-1x"></i></span></p
+              ></a>
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">280K views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-4.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>9:58</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-4.jpg"
+                  alt="profile"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  I'm bad at coding..... (my software engineering journey)
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">Pooja Dutt</p></a
+              >
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">145K views &#183; 10 days ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-5.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>3:26:43</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-5.jpg"
+                  alt="profile"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  Learn JavaScript - Full Course for Beginners
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  freeCodeCamp.org
+                  <span><i class="fa fa-check-circle fa-1x"></i></span></p
+              ></a>
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">9.4M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-6.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>27:19</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-6.jpg"
+                  alt="profile"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  How To Create A Website using HTML & CSS (straight slash)
+                  Step-by-Step
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  PAROZ
+                  <!-- <span><i class="fa fa-check-circle fa-1x"></i></span>-->
+                </p></a
+              >
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">995K views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-7.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>5:34</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-7.jpg"
+                  alt="profile"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  a *realistic* day in the life of a software engineer wfth...
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  Albert Yang
+                  <!-- <span><i class="fa fa-check-circle fa-1x"></i></span>-->
+                </p></a
+              >
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">437K views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-8.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>8:00:00</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-8.jpg"
+                  alt="profile"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  JavaScript Full Course 🌐 -Learn to code today-【𝙁𝙧𝙚𝙚】
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  Bro Code
+                  <span><i class="fa fa-check-circle fa-1x"></i></span></p
+              ></a>
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">330K views &#183; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-9.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>13:07</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-9.jpg"
+                  alt="profile"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  Start Automating Your Life Using Python! (File Management
+                  wit...)
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  Internet Made Coder
+                  <!-- <span><i class="fa fa-check-circle fa-1x"></i></span>-->
+                </p></a
+              >
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">3130K views &#183; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-10.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>15:43</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-10.jpg"
+                  alt="profile"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  How I Filed the Google Coding Interview (and lessons....)
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  NeetCode
+                  <span><i class="fa fa-check-circle fa-1x"></i></span></p
+              ></a>
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">3130K views &#183; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-11.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>3:54:32</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-11.jpg"
+                  alt="profile"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  Build and Deploy a React Admin Dashboard App With React Js....
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  JavaScript Mastery
+                  <span><i class="fa fa-check-circle fa-1x"></i></span></p
+              ></a>
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">218K views &#183; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+          <div class="thumbnail">
+            <a href="https://youtube.com" target="_blank"
+              ><img src="./Images/Thumbnails/thumbnail-12.webp" alt="thumbnail"
+            /></a>
+            <div class="video-duration">
+              <h3>29:37</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="description grid">
+          <div class="descr-left">
+            <div class="channel-profile">
+              <a href="#"
+                ><img
+                  src="./Images/Profile-pictures/profile-12.jpg"
+                  alt="profile"
+              /></a>
+            </div>
+          </div>
+          <div class="discr-right">
+            <div>
+              <a href="#"
+                ><h1 class="video-title">
+                  Build and Deploy a React Admin Dashboard App With React Js....
+                </h1></a
+              >
+            </div>
+            <div>
+              <a href="#" class="owner"
+                ><p class="channel-name">
+                  SuperSimpleDev
+                  <!-- <span><i class="fa fa-check-circle fa-1x"></i></span>-->
+                </p>
+              </a>
+            </div>
+
+            <div class="stats">
+              <p class="views-and-period">29K views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- <i class="fa fa-check-circle fa-1x"></i>
     <i class="fa-brands fa-twitter fa-2x"></i> -->
     </main>
